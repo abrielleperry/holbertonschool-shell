@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# displaying Best School 10 times, but  for the 9th iteration, displays Best School and then Hi on a new line. You must use the while loop and if statement
+#Best School 10x 9th iteration displays hi, use if&while
 i=0
 while [ $i -le 10 ]
 do
