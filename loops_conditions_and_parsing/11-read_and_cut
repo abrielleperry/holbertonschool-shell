@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#!/usr/bin/env bash
+# This program is to read and cut from the /etc/passwd file
+filename='/etc/passwd'
+while read -r line;
+do
+	echo "$line" | cut -d ":" -f 1,3,6
+done < $filename
