@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Displays Usage: manage_my_process {start|stop|restart} if any other argument or no argument is passed
+#manage my process
 
 if [ "$1" == "start" ]
 then
