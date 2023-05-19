@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
-#Write a Bash script that displays numbers from 1 to 100.
-for i in {1..100}
+#Write a Bash script that displays numbers from 1 to 100
+
+for (( i=1; i < 101; i++ ))
 do 
-	if [ $((i % 5)) -eq 0 -a $((i % 3)) -eq 0 ]
+	if (( i % 15 == 0 ));
 	then
 		echo "FizzBuzz"
-	elif [ $((i % 5)) -eq 0 ]
+	elif (( i % 5 == 0 ));
 	then						
 		echo "Buzz"				
-	elif [ $((i % 3)) -eq 0 ]
+	elif (( i % 3 == 0 ));
 	then						
 		echo "Fizz"				
 	else						
