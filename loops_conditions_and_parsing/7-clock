@@ -2,11 +2,11 @@
 #displays the time for 12 hours and 59 minutes: display hours from 0 to 12 display minutes from 1 to 59,use while loop
 
 i=0
-while [ $i -le 12 ]
+while [ $i -lt 13 ]
 do
 	echo "Hour:" $i
 	x=0
-	while [ $x -le 59 ]
+	while [ $x -lt 60 ]
 	do
 		echo $x
 		x=$((x+1))
