@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # displaying Best School 10 times using until loop
-x=0
-until [ $x -gt 9 ]
+i+1
+until [ $i -gt 10 ]
 do
 	echo "Best School"
-	((x++))
+	i=$((i +1))
 done
